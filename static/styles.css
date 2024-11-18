@@ -1,48 +1,50 @@
-/* General styles for body and text */
+k/* General styles for body and text */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: white;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    background-color: white; /* Set background color */
+    color: black; /* Basic black text color */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Full height of the screen */
 }
 
 /* Keep the homepage content aligned in a column */
 .center-content {
-    text-align: center;
-    max-width: 600px;
+    text-align: center; /* Center the text inside the container */
+    padding: 20px; /* Add padding inside the centered content */
+    max-width: 600px; /* Set a max width for better appearance */
 }
 
 /* Style for headings */
 h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    color: black; /* Standard black text for headings */
+    color: black; /* Basic black for headings */
+    font-size: 2.5rem; /* Slightly larger font for main heading */
+    margin-bottom: 10px; /* Space between heading and paragraph */
 }
 
-/* Style for paragraph text */
+/* Style for paragraph */
 p {
-    font-size: 1.2rem; /* Slightly larger font size */
-    margin-bottom: 20px; /* Add spacing below the paragraph */
+    font-size: 1.2rem; /* Slightly larger paragraph text */
+    margin-bottom: 20px; /* Space below paragraph */
 }
 
 /* Style for buttons */
 button {
     margin-top: 20px; /* Add space above the button */
-    background-color: #0056b3; /* Blue button background */
-    color: white; /* White button text */
+    display: inline-block; /* Keep inline-block styling */
+    background-color: #0056b3; /* Button background color */
+    color: white; /* Button text color */
     border: none; /* No border */
-    padding: 12px 25px; /* Add padding */
+    padding: 12px 25px; /* Add slightly more padding */
     cursor: pointer; /* Pointer cursor on hover */
-    border-radius: 6px; /* Rounded corners */
-    font-size: 18px; /* Slightly larger font */
+    border-radius: 6px; /* Slightly more rounded corners */
+    font-size: 18px; /* Slightly larger font size */
 }
 
 button:hover {
-    background-color: #004494; /* Darker blue on hover */
+    background-color: #004494; /* Slightly darker blue on hover */
 }
 
