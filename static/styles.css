@@ -1,45 +1,48 @@
-k/* General styles for body and text */
+/* General styles for body and text */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: white; /* Optional: Change the background back to white */
-    color: black; /* Optional: Change text color back to basic black */
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Keep the homepage content aligned in a column */
+.center-content {
+    text-align: center;
+    max-width: 600px;
 }
 
 /* Style for headings */
-h1, h2 {
-    text-align: left; /* Optional: Remove centering */
-    color: black; /* Optional: Basic black headings */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: black; /* Standard black text for headings */
 }
 
-/* Style for links */
-a {
-    color: blue; /* Optional: Basic blue links */
-    text-decoration: underline; /* Optional: Make links underlined */
+/* Style for paragraph text */
+p {
+    font-size: 1.2rem; /* Slightly larger font size */
+    margin-bottom: 20px; /* Add spacing below the paragraph */
 }
 
-a:hover {
-    text-decoration: none; /* Optional: Remove underline on hover */
+/* Style for buttons */
+button {
+    margin-top: 20px; /* Add space above the button */
+    background-color: #0056b3; /* Blue button background */
+    color: white; /* White button text */
+    border: none; /* No border */
+    padding: 12px 25px; /* Add padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 6px; /* Rounded corners */
+    font-size: 18px; /* Slightly larger font */
 }
 
-/* Remove form styles */
-form {
-    margin: 0;
-    padding: 0;
-    border: none; /* Optional: No border */
-    box-shadow: none; /* Optional: Remove shadow effect */
-}
-
-/* Reset styles for labels and questions */
-label, p {
-    font-size: 16px;
-    color: black; /* Optional: Basic black text */
-}
-
-/* Remove navigation link style */
-a {
-    margin-top: 0;
-    text-align: left; /* Reset alignment */
+button:hover {
+    background-color: #004494; /* Darker blue on hover */
 }
 
