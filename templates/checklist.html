@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Checklist</title>
+</head>
+<body>
+    <h1>Cybersecurity Checklist for Small Businesses</h1>
+    <form action="/results" method="POST">
+        <!-- Network Security -->
+        <h2>Network Security</h2>
+        <p>
+            <label>1. Is a firewall installed and properly configured?</label><br>
+            <input type="radio" name="firewall" value="yes" required> Yes<br>
+            <input type="radio" name="firewall" value="no"> No
+        </p>
+        <p>
+            <label>2. Have router default passwords and settings been changed?</label><br>
+            <input type="radio" name="router" value="yes" required> Yes<br>
+            <input type="radio" name="router" value="no"> No
+        </p>
+        <p>
+            <label>3. Is Wi-Fi encrypted with WPA3 or WPA2?</label><br>
+            <input type="radio" name="wifi" value="yes" required> Yes<br>
+            <input type="radio" name="wifi" value="no"> No
+        </p>
+
+        <!-- Endpoint Security -->
+        <h2>Endpoint Security</h2>
+        <p>
+            <label>4. Are all devices equipped with updated anti-virus software?</label><br>
+            <input type="radio" name="antivirus" value="yes" required> Yes<br>
+            <input type="radio" name="antivirus" value="no"> No
+        </p>
+        <p>
+            <label>5. Are operating systems on all devices up to date?</label><br>
+            <input type="radio" name="os_updates" value="yes" required> Yes<br>
+            <input type="radio" name="os_updates" value="no"> No
+        </p>
+
+        <!-- Data Protection -->
+        <h2>Data Protection</h2>
+        <p>
+            <label>6. Are regular data backups performed and stored securely?</label><br>
+            <input type="radio" name="data_backup" value="yes" required> Yes<br>
+            <input type="radio" name="data_backup" value="no"> No
+        </p>
+        <p>
+            <label>7. Is sensitive data encrypted during storage and transmission?</label><br>
+            <input type="radio" name="data_encryption" value="yes" required> Yes<br>
+            <input type="radio" name="data_encryption" value="no"> No
+        </p>
+
+        <!-- Submit -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
