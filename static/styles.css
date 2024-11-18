@@ -1,0 +1,45 @@
+k/* General styles for body and text */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Optional: Change the background back to white */
+    color: black; /* Optional: Change text color back to basic black */
+}
+
+/* Style for headings */
+h1, h2 {
+    text-align: left; /* Optional: Remove centering */
+    color: black; /* Optional: Basic black headings */
+}
+
+/* Style for links */
+a {
+    color: blue; /* Optional: Basic blue links */
+    text-decoration: underline; /* Optional: Make links underlined */
+}
+
+a:hover {
+    text-decoration: none; /* Optional: Remove underline on hover */
+}
+
+/* Remove form styles */
+form {
+    margin: 0;
+    padding: 0;
+    border: none; /* Optional: No border */
+    box-shadow: none; /* Optional: Remove shadow effect */
+}
+
+/* Reset styles for labels and questions */
+label, p {
+    font-size: 16px;
+    color: black; /* Optional: Basic black text */
+}
+
+/* Remove navigation link style */
+a {
+    margin-top: 0;
+    text-align: left; /* Reset alignment */
+}
+
