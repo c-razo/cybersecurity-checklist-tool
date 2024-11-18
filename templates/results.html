@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+</head>
+<body>
+    <h1>Cybersecurity Checklist Results</h1>
+    <p>Your Score: {{ score }}/{{ total }}</p>
+    <p>Unknown responses: {{ unknown_count }}</p>
+    <p>{{ summary }}</p>
+
+    {% if suggestions %}
+    <h2>Improvement Suggestions</h2>
+    <ul>
+        {% for suggestion in suggestions %}
+        <li>{{ suggestion|safe }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    <a href="/checklist">Go back to checklist</a>
+</body>
+</html>
+
