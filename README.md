@@ -89,9 +89,7 @@ cybersecurity-checklist-tool/
 - Add a feature to generate a downloadable PDF report for the results.
 - Implement user authentication to save checklist progress.
 - Add advanced analytics and visualization for checklist results.
-- Enhance the scoring algorithm with detailed recommendations based on industry-specific standards.
-- Add localization support for multiple languages.
-- Introduce a dark mode for improved usability.
+- Add unit tests for better code reliability.
 
 ## Contributing
 
