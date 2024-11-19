@@ -76,11 +76,13 @@ cybersecurity-checklist-tool/
 
 ## Screenshots
 
-| Feature           | Screenshot                                                                 |
-|--------------------|----------------------------------------------------------------------------|
-| **Homepage**       | ![Homepage](docs/screenshots/homepage.png)                                |
-| **Checklist**      | ![Checklist](docs/screenshots/checklist.png)                              |
-| **Results Page**   | ![Results](docs/screenshots/results.png)                                  |
+| Feature               | Screenshot                                   |
+|------------------------|---------------------------------------------|
+| **Homepage**           | ![Homepage](docs/screenshots/1.png)         |
+| **Checklist Form**     | ![Checklist](docs/screenshots/2.png)        |
+| **Sample Checklist**   | ![Sample Checklist](docs/screenshots/3.png) |
+| **Checklist Results**  | ![Results](docs/screenshots/4.png)          |
+| **Command Line Start** | ![Command Line](docs/screenshots/5.png)     |
 
 ## Future Improvements
 
