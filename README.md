@@ -100,8 +100,3 @@ Contributions are welcome! Please follow these steps:
 
 This project is licensed under the [MIT License](LICENSE).
 
----
-
-For any issues or feature requests, feel free to open an issue on the [GitHub repository](https://github.com/your-username/cybersecurity-checklist-tool).
-
-```
