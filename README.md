@@ -22,7 +22,7 @@ The **Cybersecurity Checklist Tool** is a simple and effective web-based applica
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/cybersecurity-checklist-tool.git
+   git clone https://github.com/c-razo/cybersecurity-checklist-tool.git
    cd cybersecurity-checklist-tool
    ```
 
@@ -58,7 +58,7 @@ The **Cybersecurity Checklist Tool** is a simple and effective web-based applica
 ```
 cybersecurity-checklist-tool/
 │
-├── app.py                   # Main application file
+≈y├── app.py                   # Main application file
 ├── README.md                # Project documentation
 ├── requirements.txt         # Dependencies
 ├── templates/               # HTML templates
@@ -87,6 +87,9 @@ cybersecurity-checklist-tool/
 - Add a feature to generate a downloadable PDF report for the results.
 - Implement user authentication to save checklist progress.
 - Add advanced analytics and visualization for checklist results.
+- Enhance the scoring algorithm with detailed recommendations based on industry-specific standards.
+- Add localization support for multiple languages.
+- Introduce a dark mode for improved usability.
 
 ## Contributing
 
@@ -100,3 +103,4 @@ Contributions are welcome! Please follow these steps:
 
 This project is licensed under the [MIT License](LICENSE).
 
+---
